@@ -1,0 +1,29 @@
+.sidebar-link {
+    color: #7b7f91;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #645cc9;
+    color: white;
+    border-radius: 0 180px 180px 0;
+  }
+  a{
+    text-decoration: none;
+  }
+  .hide-sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .eye-icon {
+    margin-right: 10px;
+  }
+  
+  .hide-sidebar-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  

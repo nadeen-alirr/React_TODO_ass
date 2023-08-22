@@ -1,0 +1,37 @@
+.point_doing {
+    background-color: #8375d7;
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px; 
+}
+
+
+.title_todo {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 5px; 
+    color:#a19f9f;
+}
+.card_to_do {
+    background-color: #2c2b39;
+    color: #fff;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+}
+.progress1{
+    color: #5d616d;
+    font-size: small;
+}

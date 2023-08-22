@@ -1,0 +1,99 @@
+/* addTaskPopup.css */
+.add-task-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2c2c38;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+  .remove-subtask-button{
+    background-color: transparent;
+    border: none;
+  }
+  .subtask-input{
+    width: 100%;
+  }
+  .subtask-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px; 
+  }
+  .subtask-input input {
+    flex: 1; 
+    margin-right: 10px; 
+  }
+  .subtask-input .remove-subtask-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color:#a19f9f ;
+  }
+  .input__filed{
+    margin-bottom: 25px;
+  }
+  @media screen and (min-width: 768px) {
+    .add-task-popup {
+      width: 70%;
+    }
+  }
+  .add-subtask-button{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #ffffff;
+    padding: 2%;
+}
+.create_task-button{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #645fc6;
+    color: #fff;
+    padding: 2%;
+}
+.input__filed_color {
+    background-color: #2c2c38;
+    border: 1px solid #363642; 
+    color: #fff;
+  }
+  .add-task-popup .select_options {
+    color: #fff;
+    width: 100%;
+  }
+  .div__btn{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .close-button{
+    border-radius: 180px;
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    -ms-border-radius: 180px;
+    -o-border-radius: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}

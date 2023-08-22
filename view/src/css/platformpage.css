@@ -1,0 +1,15 @@
+/* platformpage.css */
+.body {
+    background-color: #23232f;
+    min-height: 100vh; 
+  }
+  .component-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+  @media (max-width: 768px) {
+    .component-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    }
+  }

@@ -1,0 +1,9 @@
+.home-container {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1; /* Take up remaining width */
+    display: flex;
+    flex-direction: column;
+  }
