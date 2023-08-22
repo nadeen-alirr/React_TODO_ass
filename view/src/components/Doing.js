@@ -1,49 +1,4 @@
-// import React from 'react'
-// import '../css/doing.css'
 
-// const Doing = ({tasks}) => {
-//   //featching doing
-
-//   return (
-//    <div>
-//      <div className='title_todo'>
-//     <div className='point_doing'>
-//     </div>
-//     <div className='total_todo'>
-//       DOING (4)
-//     </div>
-//     </div>
-//     <div className='todo'>
-//      <div className='card_to_do'>
-//      <div>
-//      build ui for onboarding flow
-//      </div>
-//      <div className='progress1'>
-//       0 of 3 subtasks
-//      </div>
-//     </div>
-//     <div className='card_to_do'>
-//      <div>
-//      build ui for onboarding flow
-//      </div>
-//      <div className='progress1'>
-//       0 of 3 subtasks
-//      </div>
-//     </div>
-//     <div className='card_to_do'>
-//      <div>
-//      build ui for onboarding flow
-//      </div>
-//      <div className='progress1'>
-//       0 of 3 subtasks
-//      </div>
-//     </div>
-//    </div>
-//    </div>
-//   )
-// }
-
-// export default Doing
 import React, { useState } from 'react';
 import '../css/doing.css';
 import PopupEdit from './PopupEdit';
